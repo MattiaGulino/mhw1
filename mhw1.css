@@ -1,0 +1,857 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    font-family: serif;
+    margin-right: auto;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+}
+
+.navlinks li {
+    margin: 10px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+.navlinks a:hover {
+    color: #ccc;
+}
+
+.navicone {
+    display: flex;
+}
+
+.navicone a {
+    color: white;
+    font-size: 18px;
+    margin-right: 35px;
+    margin-left: 10px;
+
+}
+
+.navicone a:hover {
+    color: #ccc;
+}
+
+
+
+
+.presentation {
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    background: url('citizen_eco_drive.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: black;
+    padding: 50px;
+}
+
+.presentation-content {
+    max-width: 450px;
+}
+
+.presentation h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.presentation .bold {
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.linkscopri {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+}
+
+.linkscopri:hover {
+    color: gray;
+    border-color: gray;
+}
+
+
+
+
+
+
+
+.ecodrive-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+}
+.ecodrive-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+.imageecodrive-container {
+    flex: 1;
+    background: url('citizen1.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+.textecodrive-container {
+    flex: 1;
+    padding: 80px;
+    background-color: black;
+}
+.textecodrive-container h4{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:red;
+}
+.textecodrive-container h2 {
+    font-size: 28px;
+}
+.textecodrive-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.highlightecodrive {
+    font-weight: bold;
+}
+.ecodrive-link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    margin-top: 20px;
+    border-bottom: 2px solid red;
+    padding-bottom: 2px;
+}
+.ecodrive-link:hover {
+    color: gray;
+    border-color: gray;
+}
+
+
+
+
+
+
+.geo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+}
+.geo-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+.imagegeo-container {
+    flex: 1;
+    background: url('geo_trekker.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+.textgeo-container {
+    flex: 1;
+    padding: 80px;
+    background-color: black;
+}
+.textgeo-container h4{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#718086;
+}
+.textgeo-container h2 {
+    font-size: 28px;
+}
+.textgeo-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.highlightgeo {
+    font-weight: bold;
+}
+.geo-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #718086;
+    margin-top: 20px;
+    border-bottom: 2px solid #718086;
+    padding-bottom: 2px;
+}
+.geo-link:hover {
+    color: gray;
+    border-color: gray;
+}
+
+
+
+
+.series8-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+}
+.series8-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+.imageseries8-container {
+    flex: 1;
+    background: url('serie_8.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+.textseries8-container {
+    flex: 1;
+    padding: 30px;
+    background-color: black;
+}
+.textseries8-container h4{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#718086;
+}
+.textseries8-container h2 {
+    font-size: 28px;
+}
+.textseries8-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.highlightseries8 {
+    font-weight: bold;
+}
+.series8-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #718086;
+    margin-top: 20px;
+    border-bottom: 2px solid #718086;
+    padding-bottom: 2px;
+}
+.series8-link:hover {
+    color: gray;
+    border-color: gray;
+}
+
+
+
+
+
+
+.promaster-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    background-color: white;
+}
+.promaster-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+.imagepromaster-container {
+    flex: 1;
+    background: url('promaster.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+.textpromaster-container {
+    flex: 1;
+    padding: 30px;
+    background-color: white;
+    color:black;
+}
+.textpromaster-container h4{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: red;
+}
+.textpromaster-container h2 {
+    font-size: 28px;
+}
+.textpromaster-container h1 {
+    font-family: "Tektur", sans-serif;
+    font-size: 24px;
+}
+.textpromaster-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.highlightpromaster {
+    font-weight: bold;
+}
+.promaster-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color:red;
+    margin-top: 20px;
+    border-bottom: 2px solid red;
+    padding-bottom: 2px;
+}
+.promaster-link:hover {
+    color: gray;
+    border-color: gray;
+}
+
+
+
+
+
+
+
+.titanium-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+}
+.titanium-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+.imagetitanium-container {
+    flex: 1;
+    background: url('titanio.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+.texttitanium-container {
+    flex: 1;
+    padding: 80px;
+    background-color: black;
+}
+.texttitanium-container h4{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#989ea0;
+}
+.texttitanium-container h2 {
+    font-size: 28px;
+}
+.texttitanium-container h1 {
+    font-family: "Tektur", sans-serif;
+    font-size: 24px;
+}
+.texttitanium-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #989ea0;
+}
+.highlighttitanium {
+    font-weight: bold;
+}
+.titanium-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #989ea0;
+    margin-top: 20px;
+    border-bottom: 2px solid #989ea0;
+    padding-bottom: 2px;
+}
+.titanium-link:hover {
+    color: gray;
+    border-color: gray;
+}
+
+
+
+
+
+
+
+.radio-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+}
+.radio-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+.imageradio-container {
+    flex: 1;
+    background: url('radio.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+.textradio-container {
+    flex: 1;
+    padding: 80px;
+    background-color: black;
+}
+.textradio-container h4{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#2c6071;
+}
+.textradio-container h2 {
+    font-size: 28px;
+}
+.textradio-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #989ea0;
+}
+.highlightradio {
+    font-weight: bold;
+}
+.radio-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #2c6071;
+    margin-top: 20px;
+    border-bottom: 2px solid #2c6071;
+    padding-bottom: 2px;
+}
+.radio-link:hover {
+    color: gray;
+    border-color: gray;
+}
+
+
+
+
+
+.mec-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+}
+.mec-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+.imagemec-container {
+    flex: 1;
+    background: url('meccanico.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+.textmec-container {
+    flex: 1;
+    padding: 80px;
+    background-color: black;
+}
+.textmec-container h4{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#94dee5;
+}
+.textmec-container h2 {
+    font-size: 28px;
+}
+.textmec-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #989ea0;
+}
+.highlightmec {
+    font-weight: bold;
+}
+.mec-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #94dee5;
+    margin-top: 20px;
+    border-bottom: 2px solid #94dee5;
+    padding-bottom: 2px;
+}
+.mec-link:hover {
+    color: gray;
+    border-color: gray;
+}
+
+
+
+
+
+.of-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+}
+.of-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+.imageof-container {
+    flex: 1;
+    background: url('of.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+.textof-container {
+    flex: 1;
+    padding: 80px;
+    background-color: black;
+}
+.textof-container h4{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#989ea0;
+}
+.textof-container h2 {
+    font-size: 28px;
+}
+.textof-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #989ea0;
+}
+.highlightof {
+    font-weight: bold;
+}
+.of-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #989ea0;
+    margin-top: 20px;
+    border-bottom: 2px solid #989ea0;
+    padding-bottom: 2px;
+}
+.of-link:hover {
+    color: gray;
+    border-color: gray;
+}
+
+
+
+
+
+
+.lady-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    background-color: white;
+    color:black;
+}
+.lady-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+.imagelady-container {
+    flex: 1;
+    background: url('lady.jpg') no-repeat center center;
+    background-size: cover;
+    height: 680px;
+}
+.textlady-container {
+    flex: 1;
+    padding: 80px;
+    background-color: white;
+}
+.textlady-container h4{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#7e8588;
+}
+.textlady-container h2 {
+    font-size: 28px;
+}
+.textlady-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #989ea0;
+}
+.highlightlady {
+    font-weight: bold;
+}
+.lady-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #7e8588;
+    margin-top: 20px;
+    border-bottom: 2px solid #7e8588;
+    padding-bottom: 2px;
+}
+.lady-link:hover {
+    color: gray;
+    border-color: gray;
+}
+
+
+
+
+
+.vendita-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    width: 100%;
+}
+.textvendita-container {
+    padding: 80px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.highlightvendita {
+    font-weight: bold;
+}
+.textvendita-container h4{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#7e8588;
+}
+.vendita-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+}
+.vendita-link:hover {
+    color: gray;
+    border-color: gray;
+}
+
+
+
+
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin: auto;
+}
+
+.flex-item {
+    width: 220px;
+    padding: 20px 30px;}
+
+.flex-item h2 {
+    color: white;
+    font-size: 25px;
+}
+
+.flex-item h4 {
+    color: #7e8588;
+    margin-bottom: 13px;
+}
+
+.flex-item p {
+    font-size: 14px;
+    color: #7e8588;
+    line-height: 1.5;
+}
+
+.flex-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.flex-item li {
+    margin-bottom: 10px;
+}
+
+.flex-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.flex-item a:hover {
+    color: gray;
+}
+
+.icone-socialmedia {
+    display: flex;
+    gap: 25px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.icone-socialmedia :hover {
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column; 
+        align-items: flex-start;
+        padding: 5px 10px; 
+        height: auto;
+    }
+
+    .navlinks {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navlinks li {
+        margin: 5px 0;
+    }
+
+    
+    .presentation {
+        margin-top: 160px;
+        height: auto;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .presentation h1 {
+        font-size: 1.8rem;
+    }
+
+    .presentation-content {
+        max-width: 100%;
+    }
+
+    
+    .imageecodrive-container,
+    .imagegeo-container,
+    .imageseries8-container,
+    .imagepromaster-container,
+    .imagetitanium-container,
+    .imageradio-container,
+    .imagemec-container,
+    .imageof-container,
+    .imagelady-container {
+        height: 200px;
+        background-size: cover;
+    }
+
+   
+    .textecodrive-container,
+    .textgeo-container,
+    .textseries8-container,
+    .textpromaster-container,
+    .texttitanium-container,
+    .textradio-container,
+    .textmec-container,
+    .textof-container,
+    .textlady-container {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+   
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .flex-item {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .icone-socialmedia {
+        justify-content: center;
+        gap: 10px;
+    }
+}
